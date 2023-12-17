@@ -97,6 +97,22 @@ When talking about travel, we are talking about changing position to see/experie
 
 ## Travel Human Objects (THO)
 
+### Traveler
+
+### Organizer
+
+### Guide
+
+### Driver
+
+### Accommodation Manager
+
+### Catering Coordinator
+
+### Communication Liaison
+
+### Photographer/Videographer
+
 ## Travel Reservation Objects (TRO)
 
 ## Travel Itinerary Objects (TRO)
