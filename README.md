@@ -10,10 +10,12 @@ In the real world, some objects are static, meaning that they don't move or chan
 
 ## Fixed Position
 ### Coordinates
-- geodetic latitude
-- geodetic longitude
-- height / height bounding box
-- geographic coordinate reference system
+| field title | data type | description |
+|-------------|-----------|-------------|
+|geodetic latitude|Double|             |
+|geodetic longitude|Double|             |
+|height / height bounding box|Double|             |
+|geographic coordinate reference system|Enum|             |
 
 ### Area
 - points[]
