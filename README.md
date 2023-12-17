@@ -99,6 +99,19 @@ When talking about travel, we are talking about changing position to see/experie
 
 ### Common Attributes
 
+```javascript
+properties: [
+  {
+    key: 'first_name',
+    value: 'Max'
+  },
+  {
+    key: 'last_name',
+    value: 'Mustermann'
+  }
+]
+```
+
 | title | type| description |
 |-------------|-------------|-------------|
 |first_name|String|            |
