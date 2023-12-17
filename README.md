@@ -98,24 +98,26 @@ When talking about travel, we are talking about changing position to see/experie
 ## Travel Human Objects (THO)
 
 ```javascript
-properties: [
-  {
-    key: 'first_name',
-    value: 'Max'
-  },
-  {
-    key: 'last_name',
-    value: 'Mustermann'
-  },
-  {
-    key: 'date_of_birth',
-    value: '2000-01-01'
-  },
-  {
-    key: 'nationality',
-    value: 'DE'
-  }
-]
+{
+  properties: [
+    {
+      key: 'first_name',
+      value: 'Max'
+    },
+    {
+      key: 'last_name',
+      value: 'Mustermann'
+    },
+    {
+      key: 'date_of_birth',
+      value: '2000-01-01'
+    },
+    {
+      key: 'nationality',
+      value: 'DE'
+    }
+  ]
+}
 ```
 
 ### Common Attributes
