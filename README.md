@@ -14,7 +14,7 @@ The first step to te creation of such a solution is to think about how data will
 |-------------|-------------|-------------|
 |Travel Place Objects (TPO)|Places| Depicting points of interest within a travel plan           |
 |Travel Movement Objects (TMO)|Transportation| Depicting transportation within a travel plan           |
-|Travel Human Objects (THO)|Participation / Attendees| Depicting members of the travel plan, including responsibilities           |
+|Travel Human Objects (THO)|Participation | Depicting members of the travel plan, including responsibilities           |
 |Travel Reservation Objects (TRO)|Reservation Management| Depicting bookings and reservations           |
 |Travel Schedule Objects (TRO)|Scheduling| Scheduling all other objects types to create a plan           |
 |Travel Redlining Objects (TRO)|Reviewing| Add comments to all objects of the plan           |
