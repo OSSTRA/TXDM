@@ -97,6 +97,14 @@ When talking about travel, we are talking about changing position to see/experie
 
 ## Travel Human Objects (THO)
 
+### Common Attributes
+
+| title | type| description |
+|-------------|-------------|-------------|
+|first_name|String|            |
+|last_name|String|            |
+
+
 ### Traveler
 
 ### Organizer
