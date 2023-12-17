@@ -12,7 +12,7 @@ The first step to te creation of such a solution is to think about how data will
 
 | title | responsibility| description |
 |-------------|-------------|-------------|
-|Travel Place Objects (TPO)|Places| Depicting points of interest within a travel plan           |
+|[Travel Place Objects (TPO)](#travel-place-objects-tpo)|Places| Depicting points of interest within a travel plan           |
 |Travel Movement Objects (TMO)|Transportation| Depicting transportation within a travel plan           |
 |Travel Human Objects (THO)|Participation | Depicting members of the travel plan, including responsibilities           |
 |Travel Reservation Objects (TRO)|Reservation Management| Depicting bookings and reservations           |
