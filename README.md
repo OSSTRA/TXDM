@@ -1,10 +1,15 @@
 # Travel Exchange Data Model (TXDM)
 This project is intended for establishing a standard for the exchange of travel information between different systems. This is an evolving standard, everyone can collaborate.
 
+# About
+We at TXDM have noticed that there are no standardized ways on how to plan and execute travel. We set ourselves the goal to develop an open source ecosystem of solutions that supports people in creating, managing and executing their travel plans.
+
+The first step to te creation of such a solution is to think about how data will be stored within our ecosystem. We're looking at the bigger picture first and asking ourselves how we can make our system exchange data with other systems.
+
 **Feel free to submit pull requests**
 
 # Position
-Travelling in it's core is changing position for various reasons such as experiencing different cultures, seeing new sights, or simply getting away from the everyday routine. Therefore, positions and the act of changing positions are a crucial element to consider when creating a standardized data exchange format for travel plans. Accurate and precise representation of positions help in trip planning, navigating unfamiliar places, and keeping track of the journey's progress, while acknowledging that travel is about changing locations.
+Travelling in it's core is changing position for various reasons. Therefore, positions and the act of changing positions are a crucial element to consider when creating a standardized data exchange format for travel plans. Accurate and precise representation of positions help in trip planning, navigating unfamiliar places, and keeping track of the journey's progress, while acknowledging that travel is about changing locations.
 
 In the real world, some objects are static, meaning that they don't move or change position, such as buildings, monuments, or other fixed structures. In contrast, other objects are dynamic, meaning that they can have changing locations over time, such as vehicles, boats or abstract things like travelling markets.
 
