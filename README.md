@@ -12,7 +12,7 @@ The first step to te creation of such a solution is to think about how data will
 
 | title | responsibility| description |
 |-------------|-------------|-------------|
-|Travel Objects (TO)|Places| Depicting points of interest within a travel plan           |
+|Travel Place Objects (TPO)|Places| Depicting points of interest within a travel plan           |
 |Travel Movement Objects (TMO)|Transportation| Depicting transportation within a travel plan           |
 |Travel Participation Objects (TPO)|Participation / Attendees| Depicting members of the travel plan, including responsibilities           |
 |Travel Reservation Objects (TRO)|Reservation Management| Depicting bookings and reservations           |
@@ -52,7 +52,7 @@ For dynamic objects, we need to use more advanced data structures that are able 
 |timestamp|DateTime|             |
 |fixedPosition|Fixed Position|Either Coordinate or Area             |
 
-## Travel Objects (TO)
+## Travel Place Objects (TPO)
 Within a travel plan, there is a vast amount of objects covered. Places can be for accomodation, transportation or just for plain reference.
 
 The Travel Object Model (TO) features minimal shared attributes and an type-specific amount of spezialiced attributes. The interpretation of the Type shall be solely dependent on the specialized attributed choosen.
