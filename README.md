@@ -97,8 +97,6 @@ When talking about travel, we are talking about changing position to see/experie
 
 ## Travel Human Objects (THO)
 
-### Common Attributes
-
 ```javascript
 properties: [
   {
@@ -108,16 +106,26 @@ properties: [
   {
     key: 'last_name',
     value: 'Mustermann'
+  },
+  {
+    key: 'date_of_birth',
+    value: '2000-01-01'
+  },
+  {
+    key: 'nationality',
+    value: 'DE'
   }
 ]
 ```
+
+### Common Attributes
 
 | title | type| description |
 |-------------|-------------|-------------|
 |first_name|String|            |
 |last_name|String|            |
 |address||            |
-|date_of_birth|Date|            |
+|date_of_birth|Date|ISO 8601            |
 |nationality|String|ISO 3166-1, Alpha-2 |
 
 ### Traveler
