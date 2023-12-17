@@ -24,8 +24,10 @@ We have decided to utilize **World Geodetic System 1984 (WGS 84)** as the perman
 ## Dynamic Position
 For dynamic objects, we need to use more advanced data structures that are able to represent the object's changing location over time. For example, we can use a track history data structure to store the position of a object at different points in time.
 
-- timestamp
-- fixedPosition
+| title | type | description |
+|-------------|-----------|-------------|
+|timestamp|DateTime|             |
+|fixedPosition|Fixed Position|Either Coordinate or Area             |
 
 # Places
 ## Accomodation
