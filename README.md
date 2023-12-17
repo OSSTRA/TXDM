@@ -16,7 +16,7 @@ The first step to te creation of such a solution is to think about how data will
 |Travel Movement Objects (TMO)|Transportation| Depicting transportation within a travel plan           |
 |Travel Human Objects (THO)|Participation | Depicting members of the travel plan, including responsibilities           |
 |Travel Reservation Objects (TRO)|Reservation Management| Depicting bookings and reservations           |
-|Travel Schedule Objects (TRO)|Scheduling| Scheduling all other objects types to create a plan           |
+|Travel Itinerary Objects (TRO)|Scheduling| Scheduling all other objects types to create a plan           |
 |Travel Redlining Objects (TRO)|Reviewing| Add comments to all objects of the plan           |
 
 # Implementation
@@ -94,3 +94,11 @@ When talking about travel, we are talking about changing position to see/experie
 ### Car
 
 ### Boat
+
+## Travel Human Objects (THO)
+
+## Travel Reservation Objects (TRO)
+
+## Travel Itinerary Objects (TRO)
+
+## Travel Redlining Objects (TRO)
