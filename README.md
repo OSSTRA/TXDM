@@ -10,12 +10,13 @@ In the real world, some objects are static, meaning that they don't move or chan
 
 ## Fixed Position
 ### Coordinates
-| field title | data type | description |
+We have decided to utilize **World Geodetic System 1984 (WGS 84)** as the permanent system for referencing coordinates.
+
+| title | type | description |
 |-------------|-----------|-------------|
 |geodetic latitude|Double|             |
 |geodetic longitude|Double|             |
 |height / height bounding box|Double|             |
-|geographic coordinate reference system|Enum|             |
 
 ### Area
 - points[]
