@@ -40,7 +40,17 @@ For dynamic objects, we need to use more advanced data structures that are able 
 |timestamp|DateTime|             |
 |fixedPosition|Fixed Position|Either Coordinate or Area             |
 
-# Places
+# Travel Objects (TO)
+Within a travel plan, there is a vast amount of objects covered. Places can be for accomodation, transportation or just for plain reference.
+
+The Travel Object Model (TO) features minimal shared attributes and an type-specific amount of spezialiced attributes. The interpretation of the Type shall be solely dependent on the specialized attributed choosen.
+
+| title | type | description |
+|-------------|-----------|-------------|
+|Title|String| |
+|Location|Location| Either fixed or dynamic|
+|Properties|Dictionary| Dictionary of Properties|
+
 ## Accomodation
 ### Stationary Accomodation
 ### Moving Accomodation
