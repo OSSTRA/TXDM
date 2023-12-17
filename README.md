@@ -15,9 +15,9 @@ The first step to te creation of such a solution is to think about how data will
 |[Travel Place Objects (TPO)](#travel-place-objects-tpo)|Places| Depicting points of interest within a travel plan           |
 |[Travel Movement Objects (TMO)](#travel-movement-objects-tmo)|Transportation| Depicting transportation within a travel plan           |
 |[Travel Human Objects (THO)](#travel-human-objects-tho)|Participation | Depicting members of the travel plan, including responsibilities           |
-|[Travel Reservation Objects (TRO)](#travel-reservation-objects-tro)|Reservation Management| Depicting bookings and reservations           |
-|[Travel Itinerary Objects (TIO)](#travel-reservation-objects-tro)|Scheduling| Scheduling all other objects types to create a plan           |
-|[Travel Redlining Objects (TRO)](#travel-reservation-objects-tro)|Reviewing| Add comments to all objects of the plan           |
+|[Travel Booking Objects (TBO)](#travel-booking-objects-tbo)|Reservation Management| Depicting bookings and reservations           |
+|[Travel Itinerary Objects (TIO)](#travel-itinerary-objects-tio)|Scheduling| Scheduling all other objects types to create a plan           |
+|[Travel Redlining Objects (TRO)](#travel-redlining-objects-tro)|Reviewing| Add comments to all objects of the plan           |
 
 # Implementation
 
@@ -159,7 +159,7 @@ When talking about travel, we are talking about changing position to see/experie
 
 ### Photographer/Videographer
 
-## Travel Reservation Objects (TRO)
+## Travel Booking Objects (TBO)
 
 **Example**
 ```javascript
