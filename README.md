@@ -15,6 +15,8 @@ The first step to te creation of such a solution is to think about how data will
 |Travel Objects (TO)|Places| Depicting points of interest within a travel plan           |
 |Travel Movement Objects (TMO)|Transportation| Depicting transportation within a travel plan           |
 |Travel Participation Objects (TPO)|Participation / Attendees| Depicting members of the travel plan, including responsibilities           |
+|Travel Reservation Objects (TRO)|Reservation Management| Depicting bookings and reservations           |
+|Travel Schedule Objects (TRO)|Scheduling| Scheduling all other objects types to create a plan           |
 
 # Implementation
 
