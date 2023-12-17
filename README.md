@@ -167,7 +167,7 @@ When talking about travel, we are talking about changing position to see/experie
 }
 ```
 
-## Travel Itinerary Objects (TRO)
+## Travel Itinerary Objects (TIO)
 
 **Example**
 ```javascript
