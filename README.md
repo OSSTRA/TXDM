@@ -103,7 +103,9 @@ When talking about travel, we are talking about changing position to see/experie
 |-------------|-------------|-------------|
 |first_name|String|            |
 |last_name|String|            |
-
+|address||            |
+|date_of_birth|Date|            |
+|nationality|String|ISO 3166-1, Alpha-2 |
 
 ### Traveler
 
