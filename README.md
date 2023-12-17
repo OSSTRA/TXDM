@@ -58,6 +58,12 @@ Within a travel plan, there is a vast amount of objects covered. Places can be f
 
 The Travel Object Model (TO) features minimal shared attributes and an type-specific amount of spezialiced attributes. The interpretation of the Type shall be solely dependent on the specialized attributed choosen.
 
+**Example**
+```javascript
+{
+}
+```
+
 | title | type | description |
 |-------------|-----------|-------------|
 |Title|String| |
@@ -89,6 +95,12 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 ## Travel Movement Objects (TMO)
 When talking about travel, we are talking about changing position to see/experience places. 
 
+**Example**
+```javascript
+{
+}
+```
+
 ### Train
 
 ### Car
@@ -97,6 +109,7 @@ When talking about travel, we are talking about changing position to see/experie
 
 ## Travel Human Objects (THO)
 
+**Example**
 ```javascript
 {
   properties: [
@@ -148,6 +161,24 @@ When talking about travel, we are talking about changing position to see/experie
 
 ## Travel Reservation Objects (TRO)
 
+**Example**
+```javascript
+{
+}
+```
+
 ## Travel Itinerary Objects (TRO)
 
+**Example**
+```javascript
+{
+}
+```
+
 ## Travel Redlining Objects (TRO)
+
+**Example**
+```javascript
+{
+}
+```
