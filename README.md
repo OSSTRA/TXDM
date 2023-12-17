@@ -48,9 +48,28 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 | title | type | description |
 |-------------|-----------|-------------|
 |Title|String| |
-|Location|Location| Either fixed or dynamic|
 |Properties|Dictionary| Dictionary of Properties|
 
+## Location Properties
+
+### Stationary
+### Moving
+
 ## Accomodation
-### Stationary Accomodation
-### Moving Accomodation
+
+### Hotel
+### Car
+### Motorhome
+### Homestay
+### Ryokan
+
+## Restaurant
+
+## Museum
+
+## Activitity
+
+## Reference Point
+
+## Note
+
