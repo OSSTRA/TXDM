@@ -72,28 +72,56 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 ### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
-|metadata:check_in_time|DateTime|            |
-|metadata:check_out_time|DateTime|            |
 
 ### Facility Model
 | title | type| description |
 |-------------|-------------|-------------|
-|facility:has_in_room_safe|Boolean|            |
 |facility:has_giftshop|Boolean|            |
 |facility:has_restaurant|Boolean|            |
 |facility:has_bar|Boolean|            |
 |facility:has_lounge|Boolean|            |
-|facility:has_connecting_rooms|Boolean|            |
 |facility:has_kids_area|Boolean|            |
 |facility:has_wifi|Boolean|            |
 |facility:has_disabled_accessibilty|Boolean|            |
-|facility:has_in_room_kitchen|Boolean|            |
-|facility:has_pillow_menu|Boolean|            |
-|facility:has_room_temperature_control|Boolean|            |
 |facility:has_business_centre|Boolean|            |
 |facility:has_parking|Boolean|            |
 
 ### Services Model
+| title | type| description |
+|-------------|-------------|-------------|
+|service:has_baggage_storage_service|Boolean|            |
+
+### Policy Model
+| title | type| description |
+|-------------|-------------|-------------|
+|policy:has_pet_friendly_policy|Boolean|            |
+|policy:has_smoking_friendly_policy|Boolean|            |
+
+### Location Properties
+
+#### Stationary
+#### Moving
+
+### Accomodation
+
+#### Hotel
+##### Metadata Model
+| title | type| description |
+|-------------|-------------|-------------|
+|metadata:check_in_time|DateTime|            |
+|metadata:check_out_time|DateTime|            |
+
+##### Facility Model
+| title | type| description |
+|-------------|-------------|-------------|
+|facility:has_in_room_safe|Boolean|            |
+|facility:has_connecting_rooms|Boolean|            |
+|facility:has_kids_area|Boolean|            |
+|facility:has_in_room_kitchen|Boolean|            |
+|facility:has_pillow_menu|Boolean|            |
+|facility:has_room_temperature_control|Boolean|            |
+
+##### Services Model
 | title | type| description |
 |-------------|-------------|-------------|
 |service:has_room_service|Boolean|            |
@@ -117,22 +145,12 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 |service:has_childcare_service|Boolean|            |
 |service:has_currency_exchange_service|Boolean|            |
 |service:has_room_service|Boolean|            |
-|service:has_baggage_storage_service|Boolean|            |
 
-### Policy Model
+##### Policy Model
 | title | type| description |
 |-------------|-------------|-------------|
-|policy:has_pet_friendly_policy|Boolean|            |
-|policy:has_smoking_friendly_policy|Boolean|            |
 
-### Location Properties
 
-#### Stationary
-#### Moving
-
-### Accomodation
-
-#### Hotel
 #### Car
 #### Motorhome
 #### Homestay
