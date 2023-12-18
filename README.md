@@ -1,10 +1,12 @@
 # Travel Exchange Data Model (TXDM)
 This project is intended for establishing a standard for the exchange of travel information between different systems. This is an evolving standard, everyone can collaborate.
 
-# About
-We at TXDM have noticed that there are no standardized ways on how to plan and execute travel. We set ourselves the goal to develop an open source ecosystem of solutions that supports people in creating, managing and executing their travel plans.
+# Overview
+We at TXDM have noticed that there are no standardized ways on how to plan and execute travel.
 
-The first step to the creation of such a solution is to think about how data will be stored within our ecosystem. We're looking at the bigger picture first and asking ourselves how we can facilitate exchange data with other systems.
+The goal of this project is to simplify and speed up data transfer between participants in the vacation planning industry.
+
+We believe that the solution is to establish an industry standard data exchange format between data creators, processors and users. Together, we will try to achieve this goal by establishing common data models within this project so anybody can make use of them.
 
 **Feel free to submit pull requests**
 
