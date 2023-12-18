@@ -4,7 +4,7 @@ This project is intended for establishing a standard for the exchange of travel 
 # About
 We at TXDM have noticed that there are no standardized ways on how to plan and execute travel. We set ourselves the goal to develop an open source ecosystem of solutions that supports people in creating, managing and executing their travel plans.
 
-The first step to te creation of such a solution is to think about how data will be stored within our ecosystem. We're looking at the bigger picture first and asking ourselves how we can make our system exchange data with other systems.
+The first step to the creation of such a solution is to think about how data will be stored within our ecosystem. We're looking at the bigger picture first and asking ourselves how we can facilitate exchange data with other systems.
 
 **Feel free to submit pull requests**
 
