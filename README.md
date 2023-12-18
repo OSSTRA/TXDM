@@ -69,11 +69,13 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 |Title|String| |
 |Properties|Dictionary| Dictionary of Properties|
 
-### Metadata Model
+#### Generic Properties
+
+##### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-### Facility Model
+##### Facility Model
 | title | type| description |
 |-------------|-------------|-------------|
 |facility:has_giftshop|Boolean|            |
@@ -86,21 +88,18 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 |facility:has_business_centre|Boolean|            |
 |facility:has_parking|Boolean|            |
 
-### Services Model
+##### Services Model
 | title | type| description |
 |-------------|-------------|-------------|
 |service:has_baggage_storage_service|Boolean|            |
 
-### Policy Model
+##### Policy Model
 | title | type| description |
 |-------------|-------------|-------------|
 |policy:has_pet_friendly_policy|Boolean|            |
 |policy:has_smoking_friendly_policy|Boolean|            |
 
-### Location Properties
-
-#### Stationary
-#### Moving
+##### Location Properties
 
 ### Accomodation
 
