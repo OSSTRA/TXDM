@@ -97,14 +97,17 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 |has_express_checkout|Boolean|            |
 |has_late_checkout|Boolean|            |
 |has_early_checkin|Boolean|            |
+|has_babysitting_service|Boolean|            |
 |has_airport_transfer_service|Boolean|            |
 |has_bike_rental_service|Boolean|            |
 |has_car_rental_service|Boolean|            |
 |has_boat_rental_service|Boolean|            |
 |has_golf_rental_service|Boolean|            |
 |has_valet_parking_service|Boolean|            |
+|has_wakeup_call_service|Boolean|            |
 |has_in_room_kitchen|Boolean|            |
 |has_baggage_storage_service|Boolean|            |
+|has_pilow_menu|Boolean|            |
 
 ### Location Properties
 
