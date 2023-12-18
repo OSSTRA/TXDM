@@ -69,7 +69,7 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 |Title|String| |
 |Properties|Dictionary| Dictionary of Properties|
 
-#### Generic Properties
+#### Common Attributes
 
 ##### Metadata Model
 | title | type| description |
