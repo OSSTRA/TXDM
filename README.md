@@ -2,7 +2,7 @@
 This project is intended for establishing a standard for the exchange of travel information between different systems. This is an evolving standard, everyone can collaborate.
 
 # Overview
-We at TXDM have noticed that there are no standardized ways on how to plan and execute travel.
+We at OSSTRA have noticed that there are no standardized ways on how to plan and execute travel.
 
 The goal of this project is to simplify and speed up data transfer between participants in the vacation planning industry.
 
