@@ -10,6 +10,25 @@ We believe that the solution is to establish an industry standard data exchange 
 
 **Feel free to submit pull requests**
 
+# Current State
+This project just started. Please register your interest in the dicussion forum.
+
+I am looking for people to contribute to the project. Together, we will continuing to define the architecture and implementation. Please participate in the open issues.
+
+Any code in the repo is in active development, please do thorough testing and verification before implementing for production use.
+
+# Background
+
+## Background to the problem
+
+The vacation planning industry is primarily made up from big corporations providing accomodations, tech companies proving booking services, small companies offering packaged tours and small actors executing individual vacation planning services.
+
+Every step of the vacation planning lifecycle is currently more or less isolated and unconnected. Planning is done in Excel, Booking is done on Booking Platforms, Communication to Participants is individually prepared. 
+
+### Motivation and goals
+
+The motivation is to stop the usage of sub-optimal tools for vacation planning and to introduce an open solution for individuals and small businesses to use to create vacaiton iterinaries.
+
 # Concept
 
 | title | responsibility| description |
