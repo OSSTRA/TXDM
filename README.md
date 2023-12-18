@@ -29,7 +29,9 @@ Every step of the vacation planning lifecycle is currently more or less isolated
 
 The motivation is to stop the usage of sub-optimal tools for vacation planning and to introduce an open solution for individuals and small businesses to use to create vacaiton iterinaries.
 
-# Concept
+# Implementation
+
+## Concept
 
 | title | responsibility| description |
 |-------------|-------------|-------------|
@@ -40,7 +42,7 @@ The motivation is to stop the usage of sub-optimal tools for vacation planning a
 |[Travel Itinerary Objects (TIO)](#travel-itinerary-objects-tio)|Scheduling| Scheduling all other objects types to create a plan           |
 |[Travel Redlining Objects (TRO)](#travel-redlining-objects-tro)|Reviewing| Add comments to all objects of the plan           |
 
-# Implementation
+## Object Models (OM)
 
 ## Position
 Travelling in it's core is changing position for various reasons. Therefore, positions and the act of changing positions are a crucial element to consider when creating a standardized data exchange format for travel plans. Accurate and precise representation of positions help in trip planning, navigating unfamiliar places, and keeping track of the journey's progress, while acknowledging that travel is about changing locations.
