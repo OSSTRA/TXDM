@@ -40,18 +40,18 @@ graph TD;
     subgraph Base Type;
     Base[Travel Object TO];
     end;
-    Base<-. [implements] .->TRO[Travel Redlining Objects TRO];
+    Base<---->TRO[Travel Redlining Objects TRO];
     Base-->TIO[Travel Itinerary Object TIO];
     Base-->TPO[Travel Place Object TPO];
     Base-->TMO[Travel Movement Object TMO];
     Base-->THO[Travel Human Object THO]
     Base-->TBO[Travel Booking Object TBO]
-    TIO<-- schedulable-->TPO;
-    TIO<-- schedulable-->TMO;
-    TIO<-- schedulable-->THO;
-    TMO<-- bookedable -->TBO;
-    THO<-- bookedable -->TBO;
-    TPO<-- bookedable -->TBO;
+    TIO<---->TPO;
+    TIO<---->TMO;
+    TIO<---->THO;
+    TMO<---->TBO;
+    THO<---->TBO;
+    TPO<---->TBO;
 ```
 
 | title | responsibility| description |
