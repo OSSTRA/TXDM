@@ -42,14 +42,6 @@ The motivation is to stop the usage of sub-optimal tools for vacation planning a
 |[Travel Itinerary Objects (TIO)](#travel-itinerary-objects-tio)|Scheduling| Scheduling all other objects types to create a plan           |
 |[Travel Redlining Objects (TRO)](#travel-redlining-objects-tro)|Reviewing| Add comments to all objects of the plan           |
 
-## Travel Itinerary Objects (TIO)
-
-**Example**
-```javascript
-{
-}
-```
-
 ## Travel Redlining Objects (TRO)
 
 **Example**
