@@ -31,6 +31,8 @@ The motivation is to stop the usage of sub-optimal tools for vacation planning a
 
 # Implementation
 
+The standard has been split in so-called **Travel Objects (TO)**, whicha re each responsible for indivuals function within travel planning.
+
 ## Concept
 
 | title | responsibility| description |
@@ -41,3 +43,5 @@ The motivation is to stop the usage of sub-optimal tools for vacation planning a
 |[Travel Booking Objects (TBO)](#travel-booking-objects-tbo)|Reservation Management| Depicting bookings and reservations           |
 |[Travel Itinerary Objects (TIO)](#travel-itinerary-objects-tio)|Scheduling| Scheduling all other objects types to create a plan           |
 |[Travel Redlining Objects (TRO)](#travel-redlining-objects-tro)|Reviewing| Add comments to all objects of the plan           |
+
+## Glossary
