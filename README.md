@@ -37,9 +37,7 @@ The standard has been split in so-called **Travel Objects (TO)**, which each are
 
 ```mermaid
 graph TD;
-    subgraph Base Type;
     Base[Travel Object TO];
-    end;
     Base<-. [implements] .->TRO[Travel Redlining Objects TRO];
     Base-->TIO[Travel Itinerary Object TIO];
     Base-->TPO[Travel Place Object TPO];
