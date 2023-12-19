@@ -38,11 +38,10 @@ The standard has been split in so-called **Travel Objects (TO)**, which each are
 ```mermaid
 graph TD;
     subgraph Generic Object Models;
-    BASE[Travel Object TO];
     end;
     subgraph Specific Object Models;
     BASE[Travel Object TO];
-     BASE<-. implements .->TRO[Travel Redlining Objects TRO];
+    BASE<-. implements .->TRO[Travel Redlining Objects TRO];
     BASE-->TIO[Travel Itinerary Object TIO];
     BASE-->TPO[Travel Place Object TPO];
     BASE-->TMO[Travel Movement Object TMO];
