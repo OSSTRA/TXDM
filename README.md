@@ -50,7 +50,7 @@ graph TD;
     TIO<-- schedulable-->TMO;
     TIO<-- schedulable-->THO;
     TMO<-- bookedable -->TBO;
-    THO<-- bookedable -->TBO
+    THO<-- bookedable -->TBO;
     TPO<-- bookedable -->TBO;
 ```
 
