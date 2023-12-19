@@ -37,21 +37,31 @@ The standard has been split in so-called **Travel Objects (TO)**, which each are
 
 ```mermaid
 graph TD;
-    subgraph Base Type;
-    Base[Travel Object TO];
+    subgraph Generic Object Models;
+    BASE[Travel Object TO];
     end;
-    Base<-. implements .->TRO[Travel Redlining Objects TRO];
-    Base.->TIO[Travel Itinerary Object TIO];
-    Base.->TPO[Travel Place Object TPO];
-    Base.->TMO[Travel Movement Object TMO];
-    Base.->THO[Travel Human Object THO]
-    Base.->TBO[Travel Booking Object TBO]
+    subgraph Specific Object Models;
+    BASE[Travel Object TO];
+     BASE<-. implements .->TRO[Travel Redlining Objects TRO];
+    BASE-->TIO[Travel Itinerary Object TIO];
+    BASE-->TPO[Travel Place Object TPO];
+    BASE-->TMO[Travel Movement Object TMO];
+    BASE-->THO[Travel Human Object THO]
+    BASE-->TBO[Travel Booking Object TBO]
     TIO<-- schedulable-->TPO;
     TIO<-- schedulable-->TMO;
     TIO<-- schedulable-->THO;
     TMO<-- bookedable -->TBO;
     THO<-- bookedable -->TBO;
     TPO<-- bookedable -->TBO;
+    end;
+    click BASE "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Object%20TO.md"
+    click TRO "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Redlining%20Objects%20(TRO).md"
+    click TIO "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Itinerary%20Objects%20(TIO).md"
+    click TPO "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Place%20Objects%20(TPO).md"
+    click TMO "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Movement%20Objects%20(TMO).md"
+    click THO "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Human%20Objects%20(THO)"
+    click TBO "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Booking%20Objects%20(TBO).md"
 ```
 
 | title | responsibility| description |
