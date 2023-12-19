@@ -31,7 +31,7 @@ The motivation is to stop the usage of sub-optimal tools for vacation planning a
 
 # Implementation
 
-The standard has been split in so-called **Travel Objects (TO)**, whicha re each responsible for indivuals function within travel planning.
+The standard has been split in so-called **Travel Objects (TO)**, which each are responsible for indidual functions of travel planning. None of these elements is required, allowing the creation and exchange of Travel Data in various stages of the Travel Planning Life Cycle.
 
 ## Concept
 
