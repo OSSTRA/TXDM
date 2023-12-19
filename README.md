@@ -35,6 +35,14 @@ The standard has been split in so-called **Travel Objects (TO)**, which each are
 
 ## Concept
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 | title | responsibility| description |
 |-------------|-------------|-------------|
 |[Travel Place Objects (TPO)](#travel-place-objects-tpo)|Places| Depicting points of interest within a travel plan           |
