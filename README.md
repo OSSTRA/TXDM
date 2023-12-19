@@ -17,6 +17,13 @@ I am looking for people to contribute to the project. Together, we will continui
 
 Any code in the repo is in active development, please do thorough testing and verification before implementing for production use.
 
+```mermaid
+timeline
+    title Timeline of this project
+    11/2023 : Founding
+    12/2023 : Start Standard Definition
+```
+
 # Background
 
 ## Background to the problem
