@@ -41,11 +41,11 @@ graph TD;
     Base[Travel Object TO];
     end;
     Base<-. implements .->TRO[Travel Redlining Objects TRO];
-    Base-->TIO[Travel Itinerary Object TIO];
-    Base-->TPO[Travel Place Object TPO];
-    Base-->TMO[Travel Movement Object TMO];
-    Base-->THO[Travel Human Object THO]
-    Base-->TBO[Travel Booking Object TBO]
+    Base.->TIO[Travel Itinerary Object TIO];
+    Base.->TPO[Travel Place Object TPO];
+    Base.->TMO[Travel Movement Object TMO];
+    Base.->THO[Travel Human Object THO]
+    Base.->TBO[Travel Booking Object TBO]
     TIO<-- schedulable-->TPO;
     TIO<-- schedulable-->TMO;
     TIO<-- schedulable-->THO;
