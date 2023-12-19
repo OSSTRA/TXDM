@@ -42,21 +42,6 @@ The motivation is to stop the usage of sub-optimal tools for vacation planning a
 |[Travel Itinerary Objects (TIO)](#travel-itinerary-objects-tio)|Scheduling| Scheduling all other objects types to create a plan           |
 |[Travel Redlining Objects (TRO)](#travel-redlining-objects-tro)|Reviewing| Add comments to all objects of the plan           |
 
-## Travel Movement Objects (TMO)
-When talking about travel, we are talking about changing position to see/experience places. 
-
-**Example**
-```javascript
-{
-}
-```
-
-### Train
-
-### Car
-
-### Boat
-
 ## Travel Human Objects (THO)
 
 **Example**
