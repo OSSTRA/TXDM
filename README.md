@@ -175,9 +175,61 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 
 
 #### Car
+
+##### Metadata Model
+| title | type| description |
+|-------------|-------------|-------------|
+|metadata:owner|Travel Human Object|            |
+
+##### Facility Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Services Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Policy Model
+| title | type| description |
+|-------------|-------------|-------------|
+
 #### Motorhome
+
+##### Metadata Model
+| title | type| description |
+|-------------|-------------|-------------|
+|metadata:owner|Travel Human Object|            |
+
+##### Facility Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Services Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Policy Model
+| title | type| description |
+|-------------|-------------|-------------|
+
 #### Homestay
-#### Ryokan
+
+##### Metadata Model
+| title | type| description |
+|-------------|-------------|-------------|
+|metadata:owner|Travel Human Object|            |
+
+##### Facility Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Services Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Policy Model
+| title | type| description |
+|-------------|-------------|-------------|
 
 ### Restaurant
 
