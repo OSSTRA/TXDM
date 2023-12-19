@@ -46,7 +46,7 @@ graph TD;
     Base-->TMO[Travel Movement Object TMO];
     Base-->THO[Travel Human Object THO]
     Base-->TBO[Travel Booking Object TBO]
-    TIO<---->TPO;
+    TIO<-- test -->TPO;
     TIO<---->TMO;
     TIO<---->THO;
     TMO<---->TBO;
