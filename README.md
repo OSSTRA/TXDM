@@ -97,6 +97,7 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 ##### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
+|metadata:capacity|Integer| How many people can the place fit?          |
 
 ##### Facility Model
 | title | type| description |
