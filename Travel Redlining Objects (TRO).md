@@ -6,8 +6,10 @@
 }
 ```
 
-### Drawing
+### Image
 
 ### Map
+
+### Directions
 
 ### Note
