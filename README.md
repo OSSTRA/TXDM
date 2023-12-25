@@ -72,11 +72,11 @@ graph TD;
 
 | title | responsibility| description |
 |-------------|-------------|-------------|
-|[Travel Place Objects (TPO)](#travel-place-objects-tpo)|Places| Depicting points of interest within a travel plan           |
-|[Travel Movement Objects (TMO)](#travel-movement-objects-tmo)|Transportation| Depicting transportation within a travel plan           |
-|[Travel Human Objects (THO)](#travel-human-objects-tho)|Participation | Depicting members of the travel plan, including responsibilities           |
-|[Travel Booking Objects (TBO)](#travel-booking-objects-tbo)|Reservation Management| Depicting bookings and reservations           |
-|[Travel Itinerary Objects (TIO)](#travel-itinerary-objects-tio)|Scheduling| Scheduling all other objects types to create a plan           |
-|[Travel Redlining Objects (TRO)](#travel-redlining-objects-tro)|Reviewing| Add comments to all objects of the plan           |
+|[Travel Place Objects (TPO)](https://github.com/OSSTRA/TXDM/blob/main/Travel%20Place%20Objects%20(TPO).md)|Places| Depicting points of interest within a travel plan           |
+|[Travel Movement Objects (TMO)](https://github.com/OSSTRA/TXDM/blob/main/Travel%20Movement%20Objects%20(TMO).md)|Transportation| Depicting transportation within a travel plan           |
+|[Travel Human Objects (THO)](https://github.com/OSSTRA/TXDM/blob/main/Travel%20Human%20Objects%20(THO))|Participation | Depicting members of the travel plan, including responsibilities           |
+|[Travel Booking Objects (TBO)](https://github.com/OSSTRA/TXDM/blob/main/Travel%20Booking%20Objects%20(TBO).md)|Reservation Management| Depicting bookings and reservations           |
+|[Travel Itinerary Objects (TIO)](https://github.com/OSSTRA/TXDM/blob/main/Travel%20Itinerary%20Objects%20(TIO).md)|Scheduling| Scheduling all other objects types to create a plan           |
+|[Travel Redlining Objects (TRO)](https://github.com/OSSTRA/TXDM/blob/main/Travel%20Redlining%20Objects%20(TRO).md)|Reviewing| Add comments to all objects of the plan           |
 
 ## Glossary
