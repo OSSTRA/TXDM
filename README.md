@@ -57,9 +57,9 @@ graph TD;
     TIO<-- schedulable-->TPO;
     TIO<-- schedulable-->TMO;
     TIO<-- schedulable-->THO;
-    TMO<-- bookedable -->TBO;
-    THO<-- bookedable -->TBO;
-    TPO<-- bookedable -->TBO;
+    TMO<-- bookable -->TBO;
+    THO<-- bookable -->TBO;
+    TPO<-- bookable -->TBO;
     end;
     click BASE "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Object%20TO.md"
     click TRO "https://github.com/OSSTRA/TXDM/blob/main/Travel%20Redlining%20Objects%20(TRO).md"
