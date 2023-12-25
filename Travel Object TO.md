@@ -1,10 +1,10 @@
 ```mermaid
 classDiagram
-TravelObject <|-- VersionObject
+TravelObject -- VersionObject
     class TravelObject{
       +Guid Guid
       +Guid CurrentVersion
-      +Version[] Versions
+      +VersionObject[] Versions
     }
     class VersionObject{
       +Guid Guid
