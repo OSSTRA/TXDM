@@ -1,4 +1,5 @@
 ```mermaid
+classDiagram
 TravelObject <|-- VersionObject
     class TravelObject{
       +Guid Guid
