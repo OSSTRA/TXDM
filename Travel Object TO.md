@@ -10,6 +10,6 @@ TravelObject -- VersionObject
       +Guid Guid
       +DateTime Modified
       +String ModifiedBy
-      +Object Data
+      +TravelObjectImplementation Data
     }
 ```
