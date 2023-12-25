@@ -79,4 +79,8 @@ graph TD;
 |[Travel Itinerary Objects (TIO)](https://github.com/OSSTRA/TXDM/blob/main/Travel%20Itinerary%20Objects%20(TIO).md)|Scheduling| Scheduling all other objects types to create a plan           |
 |[Travel Redlining Objects (TRO)](https://github.com/OSSTRA/TXDM/blob/main/Travel%20Redlining%20Objects%20(TRO).md)|Reviewing| Add comments to all objects of the plan           |
 
+## Features
+- Versioning
+- Tagging
+
 ## Glossary
