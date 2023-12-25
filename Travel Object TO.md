@@ -1,6 +1,7 @@
 ```mermaid
 classDiagram
 TravelObject -- VersionObject
+TraveTags -- VersionObject
     class TravelObject{
       +Guid Guid
       +Guid CurrentVersion
@@ -10,6 +11,11 @@ TravelObject -- VersionObject
       +Guid Guid
       +DateTime Modified
       +String ModifiedBy
+      +Tags[] Tags
       +TravelObjectImplementation Data
+    }
+    class TravelTags{
+        +Guid Guid
+        +Title Title
     }
 ```
