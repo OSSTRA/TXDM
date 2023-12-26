@@ -23,7 +23,7 @@ Tag <-- DataTag
     class Wrapper{
       +Guid Guid
       +Guid CurrentVersion
-      +VersionObject[] Versions
+      +Version[] Versions
     }
     class Version{
       +Guid Guid
@@ -48,4 +48,28 @@ Tag <-- DataTag
     note for Tag "Tagging Implementation"
     note for TravelObject "Can be any type of 'Travel X Object' (TXO)"
     note for Attribute "Needs to be compatible with choosen 'Travel X Object' (TXO), select from catalogue"
+```
+
+### Example
+```json
+{
+    "Guid": "512ef6c1-7163-4e90-b581-87563857b9be",
+    "CurrentVersion:"",
+    "Versions": [
+        {
+            "Guid": "512ef6c1-7163-4e90-b581-87563857b9be",
+            "Modified": "2007-12-24T18:21Z",
+            "ModifiedBy": "max.mustermann@gmx.de",
+            "Tags": [
+                {
+                    "Guid": "512ef6c1-7163-4e90-b581-87563857b9be",
+                    "Title": "Version 1" //optional
+                }
+            ],
+            "TravelObject": {
+                // Travel X Object (TXO) Implementation
+            }
+        }
+    ]
+}
 ```
