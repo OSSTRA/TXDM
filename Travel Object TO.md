@@ -14,9 +14,10 @@ Allowing to include tags in the data allows to depict data evolution in a way th
 ```mermaid
 classDiagram
 Wrapper -- Version
-Tags -- Version
+Tag -- Version
 Version -- TravelObject
 TravelObject -- Attribute
+TravelObject -- Tag
     class Wrapper{
       +Guid Guid
       +Guid CurrentVersion
@@ -26,22 +27,23 @@ TravelObject -- Attribute
       +Guid Guid
       +DateTime Modified
       +String ModifiedBy
-      +Tags[] Tags
+      +Tag[] Tags
       +TravelObject Data
     }
-    class Tags{
+    class Tag{
         +Guid Guid
         +Title Title
     }
     class TravelObject{
         +Attribute[] Attributes
+        +Tag[] Tags
     }
     class Attribute{
         +String Key
         +Object Value
     }
     note for Version "Versioning Implementation"
-    note for Tags "Tagging Implementation"
+    note for Tag "Tagging Implementation"
     note for TravelObject "Can be any type of 'Travel X Object' (TXO)"
     note for Attribute "Needs to be compatible with choosen 'Travel X Object' (TXO), select from catalogue"
 ```
