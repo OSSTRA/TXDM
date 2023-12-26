@@ -14,10 +14,10 @@ Allowing to include tags in the data allows to depict data evolution in a way th
 ```mermaid
 classDiagram
 Wrapper -- Version
-Tag -- Version
+VersionTag -- Version
 Version -- TravelObject
 TravelObject -- Attribute
-TravelObject -- Tag
+TravelObject -- DataTag
 Tag <-- VersionTag
 Tag <-- DataTag
     class Wrapper{
