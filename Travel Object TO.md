@@ -15,20 +15,26 @@ Allowing to include tags in the data allows to depict data evolution in a way th
 classDiagram
 TravelObject -- VersionObject
 TravelTags -- VersionObject
-    class TravelObject{
+    class ObjectWrapper{
       +Guid Guid
       +Guid CurrentVersion
       +VersionObject[] Versions
     }
-    class VersionObject{
+    class Version{
       +Guid Guid
       +DateTime Modified
       +String ModifiedBy
       +Tags[] Tags
-      +TravelObjectImplementation Data
+      +TravelObject Data
     }
-    class TravelTags{
+    class Tags{
         +Guid Guid
         +Title Title
     }
+    class TravelObject{
+        +Attribute[] Attributes
+    }
+    note for Version "Versioning Implementation"
+    note for Tags "Tagging Implementation"
+    note for TravelObject "Can be any type of 'Travel X Object' (TXO)"
 ```
