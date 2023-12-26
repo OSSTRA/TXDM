@@ -13,8 +13,9 @@ Allowing to include tags in the data allows to depict data evolution in a way th
 
 ```mermaid
 classDiagram
-TravelObject -- VersionObject
+ObjectWrapper -- VersionObject
 TravelTags -- VersionObject
+Version -- TravelObject
     class ObjectWrapper{
       +Guid Guid
       +Guid CurrentVersion
