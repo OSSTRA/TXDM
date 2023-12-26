@@ -54,10 +54,10 @@ Tag <-- DataTag
 ```json
 {
     "Guid": "512ef6c1-7163-4e90-b581-87563857b9be",
-    "CurrentVersion:"",
+    "CurrentVersion":"6addeb94-d8e6-463b-90b5-7ba653e1bf14",
     "Versions": [
         {
-            "Guid": "512ef6c1-7163-4e90-b581-87563857b9be",
+            "Guid": "6addeb94-d8e6-463b-90b5-7ba653e1bf14",
             "Modified": "2007-12-24T18:21Z",
             "ModifiedBy": "max.mustermann@gmx.de",
             "Tags": [
