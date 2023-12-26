@@ -18,6 +18,8 @@ Tag -- Version
 Version -- TravelObject
 TravelObject -- Attribute
 TravelObject -- Tag
+Tag <-- VersionTag
+Tag <-- DataTag
     class Wrapper{
       +Guid Guid
       +Guid CurrentVersion
