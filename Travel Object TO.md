@@ -16,6 +16,7 @@ classDiagram
 Wrapper -- Version
 Tags -- Version
 Version -- TravelObject
+TravelObject -- Attribute
     class Wrapper{
       +Guid Guid
       +Guid CurrentVersion
@@ -35,7 +36,12 @@ Version -- TravelObject
     class TravelObject{
         +Attribute[] Attributes
     }
+    class Attribute{
+        +String Key
+        +Object Value
+    }
     note for Version "Versioning Implementation"
     note for Tags "Tagging Implementation"
     note for TravelObject "Can be any type of 'Travel X Object' (TXO)"
+    note for Attribute "Needs to be compatible with choosen 'Travel X Object' (TXO), select from catalogue"
 ```
