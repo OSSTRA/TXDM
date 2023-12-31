@@ -1,0 +1,44 @@
+{
+    "title": "Person - from schema.org",
+    "description": "An person object from schema.org (see https://schema.org/Person).",
+    "type": "object",
+  
+    "properties": {
+      "additionalName": {
+        "description": "An additional name for a Person, can be used for a middle name.",
+        "type": "string"
+      },
+      "address": {
+        "description": "PostalAddress  or TextPhysical address of the item.",
+        "type": "string"
+      },
+      "affiliation": {
+        "description": "An organization that this person is affiliated with. For example, a school/university, a club, or a team.",
+        "type": "string"
+      },
+      "birthDate": {
+        "description": "An organization that this person is affiliated with. For example, a school/university, a club, or a team.",
+        "type": "datetime"
+      },
+      "birthPlace": {
+        "description": "The place where the person was born.",
+        "type": "Place"
+      },
+      "contactPoint": {
+        "description": "A contact point for a person or organization. Supersedes contactPoints.",
+        "type": "ContactPoint"
+      },
+      "email": {
+        "description": "Email address.",
+        "type": "String"
+      },
+      "familyName": {
+        "description": "Family name. In the U.S., the last name of a Person.",
+        "type": "String"
+      },
+      "givenName": {
+        "description": "FGiven name. In the U.S., the first name of a Person.",
+        "type": "String"
+      }
+    }
+  }
