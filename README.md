@@ -83,4 +83,9 @@ graph TD;
 - Versioning
 - Tagging
 
+## Acknowledgements
+Tis standard has been based on the previous work of:
+
+- [ICAR Animal Data Exchange JSON Standards](https://github.com/adewg/ICAR)
+
 ## Glossary
