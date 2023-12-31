@@ -1,0 +1,10 @@
+{
+    "description": "Enumeration for the event type that has occured.",
+  
+    "type": "string",
+  
+    "enum": [
+      "PersonArrived",
+      "PersonDeparted"
+    ]
+  }
