@@ -184,55 +184,55 @@ Attributes which are only assignable to Homestays.
 
 ### Restaurant
 
-##### Metadata Model
+#### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Facility Model
+#### Facility Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Services Model
+#### Services Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Policy Model
+#### Policy Model
 | title | type| description |
 |-------------|-------------|-------------|
 
 ### Museum
 
-##### Metadata Model
+#### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Facility Model
+#### Facility Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Services Model
+#### Services Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Policy Model
+#### Policy Model
 | title | type| description |
 |-------------|-------------|-------------|
 
 ### Activitity
 
-##### Metadata Model
+#### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Facility Model
+#### Facility Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Services Model
+#### Services Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Policy Model
+#### Policy Model
 | title | type| description |
 |-------------|-------------|-------------|
 
@@ -241,18 +241,18 @@ For storage of reference points. These places do only exist for reference (e.g. 
 
 Reference points are generally to be identified with coordinates.
 
-##### Metadata Model
+#### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Facility Model
+#### Facility Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Services Model
+#### Services Model
 | title | type| description |
 |-------------|-------------|-------------|
 
-##### Policy Model
+#### Policy Model
 | title | type| description |
 |-------------|-------------|-------------|
