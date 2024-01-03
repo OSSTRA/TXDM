@@ -3,18 +3,37 @@ Within a travel plan, there is a vast amount of objects covered. Places can be f
 
 The Travel Object Model (TO) features minimal shared attributes and an type-specific amount of spezialiced attributes. The interpretation of the Type shall be solely dependent on the specialized attributed choosen.
 
-**Example**
+### Base Type Reference - Travel Object (TO)
+Always be aware about that concrete implementations are alwas to be implemented in the Travel Object (TO) context to ensure support of functionalities.
+
+**Reference:** [Travel Object (TO) Reference](https://github.com/OSSTRA/TXDM/blob/main/docs/Travel%20Object%20TO.md)
+
+### Example
 ```javascript
-{
-}
+ {
+    "Attributes": [
+        {
+            "key": "metadata:capacity",
+            "value": 5
+        },
+        {
+            "key": "f acility:has_disabled_accessibilty",
+            "value": true
+        }
+    ],
+    "Tags": [] //see datatag implementation
+ }
 ```
 
-| title | type | description |
-|-------------|-----------|-------------|
-|Title|String| |
-|Properties|Dictionary| Dictionary of Properties|
+## Concept
+//insert diagram of sub classes here
 
-#### Common Attributes
+## Attributes
+
+All attributes that can be attached to this implementation. Attributes are to be assigned based on the [Travel Object (TO) Reference](https://github.com/OSSTRA/TXDM/blob/main/docs/Travel%20Object%20TO.md).
+
+## Shared Attributes
+These attributes are valid for all sub types of Travel Place Objects (TPO).
 
 ##### Metadata Model
 | title | type| description |
@@ -45,11 +64,13 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 |policy:has_pet_friendly_policy|Boolean|            |
 |policy:has_smoking_friendly_policy|Boolean|            |
 
-##### Location Properties
+## Location Properties
 
 ### Accomodation
 
 #### Hotel
+Attributes which are only assignable to Hotels.
+
 ##### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
@@ -97,6 +118,9 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 
 
 #### Car
+Accomodation can also temporary exist in the form a a car, which is an example for a non-static place.
+
+Attributes which are only assignable to Cars.
 
 ##### Metadata Model
 | title | type| description |
@@ -116,6 +140,9 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 |-------------|-------------|-------------|
 
 #### Motorhome
+Accomodation can also exist in the form a a motor home, which is an example for a non-static place.
+
+Attributes which are only assignable to Motor Homes.
 
 ##### Metadata Model
 | title | type| description |
@@ -136,6 +163,8 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 
 #### Homestay
 
+Attributes which are only assignable to Homestays.
+
 ##### Metadata Model
 | title | type| description |
 |-------------|-------------|-------------|
@@ -155,10 +184,75 @@ The Travel Object Model (TO) features minimal shared attributes and an type-spec
 
 ### Restaurant
 
+##### Metadata Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Facility Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Services Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Policy Model
+| title | type| description |
+|-------------|-------------|-------------|
+
 ### Museum
+
+##### Metadata Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Facility Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Services Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Policy Model
+| title | type| description |
+|-------------|-------------|-------------|
 
 ### Activitity
 
-### Reference Point
+##### Metadata Model
+| title | type| description |
+|-------------|-------------|-------------|
 
-### Note
+##### Facility Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Services Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Policy Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+### Reference Point
+For storage of reference points. These places do only exist for reference (e.g. orientation, taking photos, navigation, ..) and are not easily referencable (e.g. by name, address) in real life.
+
+Reference points are generally to be identified with coordinates.
+
+##### Metadata Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Facility Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Services Model
+| title | type| description |
+|-------------|-------------|-------------|
+
+##### Policy Model
+| title | type| description |
+|-------------|-------------|-------------|
